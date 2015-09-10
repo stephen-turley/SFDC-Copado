@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plan Feature Add On</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plan Feature Add Ons</value>
+    </caseValues>
+    <fields>
+        <label><!-- Add On Type --></label>
+        <name>Add_On_Type__c</name>
+        <picklistValues>
+            <masterLabel>Additive</masterLabel>
+            <translation><!-- Additive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtractive</masterLabel>
+            <translation><!-- Subtractive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Feature --></label>
+        <name>Feature__c</name>
+        <relationshipLabel><!-- Plan Feature Add Ons --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Plan --></label>
+        <name>Plan__c</name>
+        <relationshipLabel><!-- Plan Feature Add Ons --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
