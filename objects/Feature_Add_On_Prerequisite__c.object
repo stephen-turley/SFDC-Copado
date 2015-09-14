@@ -79,6 +79,7 @@
     </fields>
     <fields>
         <fullName>Prerequisite_Feature_Id__c</fullName>
+        <description>Feature Id of the pre-requisite feature</description>
         <externalId>false</externalId>
         <label>Prerequisite Feature Id</label>
         <length>32</length>
