@@ -47,7 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Provides for a many to many relationship between Package Plans and Packages</description>
+    <description>Provides for a many to many relationship between Products and Features</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -56,32 +56,32 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Package_Id__c</fullName>
+        <fullName>Feature_Id__c</fullName>
         <externalId>false</externalId>
-        <label>Package Id</label>
+        <label>Feature Id</label>
         <length>32</length>
-        <required>false</required>
+        <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Package_Plan_Id__c</fullName>
+        <fullName>Product_Id__c</fullName>
         <externalId>false</externalId>
-        <label>Package Plan Id</label>
+        <label>Product Id</label>
         <length>32</length>
-        <required>false</required>
+        <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Package_Plan_Package</label>
+    <label>Product_Feature</label>
     <nameField>
         <displayFormat>{0}</displayFormat>
-        <label>Package Plan Package Id</label>
+        <label>Product Feature Id</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Package_Plan_Packages</pluralLabel>
+    <pluralLabel>Product_Features</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

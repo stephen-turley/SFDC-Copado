@@ -47,6 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Provides for a many to many relationship between Organisations and Devices</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -74,13 +75,13 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Organisation Device</label>
+    <label>Organisation_Device</label>
     <nameField>
         <displayFormat>{0}</displayFormat>
         <label>Organisation Device Id</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Organisation Devices</pluralLabel>
+    <pluralLabel>Organisation_Devices</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

@@ -2,11 +2,11 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value>Package Plan Package</value>
+        <value>Package_Plan_Package</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>Package Plan Packages</value>
+        <value>Package_Plan_Packages</value>
     </caseValues>
     <fields>
         <label><!-- Package Id --></label>

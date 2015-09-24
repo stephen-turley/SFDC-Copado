@@ -2,19 +2,19 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value>Organisation_Device</value>
+        <value>Product_Feature</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>Organisation_Devices</value>
+        <value>Product_Features</value>
     </caseValues>
     <fields>
-        <label><!-- Device Id --></label>
-        <name>Device_Id__c</name>
+        <label><!-- Feature Id --></label>
+        <name>Feature_Id__c</name>
     </fields>
     <fields>
-        <label><!-- Organisation Id --></label>
-        <name>Organisation_Id__c</name>
+        <label><!-- Product Id --></label>
+        <name>Product_Id__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

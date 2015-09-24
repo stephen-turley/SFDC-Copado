@@ -47,6 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Provides for a many to many relationship between  Organisations and Packages</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -74,13 +75,13 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Organisation Package</label>
+    <label>Organisation_Package</label>
     <nameField>
         <displayFormat>{0}</displayFormat>
         <label>Organisation Package Id</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Organisation Packages</pluralLabel>
+    <pluralLabel>Organisation_Packages</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
